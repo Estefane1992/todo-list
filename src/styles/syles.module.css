@@ -1,0 +1,225 @@
+.container {
+    margin: 0 20px;
+}
+
+.button_task {
+    width: 315px;
+    height: 76px;
+    top: 682px;
+    left: 30px;
+    border-radius: 8px;
+    background: linear-gradient(136.04deg, #7F00FF -15.75%, #E100FF 122.51%);
+    box-shadow: 4px 12px 20px 4px #E100FF36;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container_button {
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.title_task_list {
+    width: 51px;
+    height: 66px;
+    top: 106px;
+    left: 30px;
+    color: #262626;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.title_task_finished {
+    width: 119px;
+    height: 19px;
+    top: 148px;
+    left: 241px;
+    font-family: Nunito;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F00FF;
+    margin-left: 200px;
+}
+
+.date {
+    height: 16px;
+    top: 55px;
+    left: 30px;
+    font-family: Nunito;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: #4A4A4A;
+}
+
+.date_day {
+    height: 25px;
+    top: 30px;
+    left: 30px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #7F00FF;
+}
+
+.top_container {
+    margin-right: 60px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+    top: 30px;
+    left: 295px;
+    margin-left: 100px;
+}
+
+.container_task_from {
+    margin-top: 50px;
+}
+
+.icon_edit_page {
+    width: 24px;
+    height: 21px;
+    top: 18px;
+    left: 15px;
+    margin-bottom: 5px;
+    color: #262626;
+}
+
+.edit_page_link {
+    width: 51px;
+    height: 66px;
+    top: 30px;
+    left: 48px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    text-decoration: none;
+    margin-right: 260px;
+}
+
+.span_task {
+    margin-left: 20px;
+}
+
+.form_label {
+    width: 310px;
+    height: 25px;
+    top: 355px;
+    left: 30px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-top: 100px;
+}
+
+.input_text {
+    width: 315px;
+    height: 67px;
+    top: 390px;
+    left: 30px;
+    border-radius: 8px;
+    background: #FAFAFA;
+    font-family: Nunito;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ABABAB;
+    border: none;
+
+}
+
+.task_container span {
+    color: #7F00FF;
+}
+
+.button_container_edit_task {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.edit_task_button {
+    width: 315px;
+    height: 76px;
+    top: 682px;
+    left: 30px;
+    border-radius: 8px;
+    background: linear-gradient(136.04deg, #7F00FF -15.75%, #E100FF 122.51%);
+    box-shadow: 4px 12px 20px 4px #E100FF36;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FAFAFA;
+}
+
+
+@media only screen and (max-width: 300px) {
+    .button_task {
+        width: 250px;
+        height: 76px;
+    }
+    .title_task_list{
+        margin-left: 30px;
+    }
+    .image {
+        width: 50px;
+        height: 50px;
+        top: 30px;
+        left: 295px;
+        margin-left: 60px;
+        margin-bottom: 20px;
+    }
+
+    .edit_page_link {
+        margin-right: 180px;
+    }
+
+    .form_label {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .input_text {
+        width: 100%;
+        height: 70px;
+    }
+
+
+    .edit_task_button {
+        width: 100%;
+        height: 70px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,125 @@
+.container_button {
+    margin-top: 300px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.button_task {
+    width: 315px;
+    height: 76px;
+    top: 682px;
+    left: 30px;
+    border-radius: 8px;
+    background: linear-gradient(136.04deg, #7F00FF -15.75%, #E100FF 122.51%);
+    box-shadow: 4px 12px 20px 4px #E100FF36;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.container_form {
+    width: 315px;
+    height: 102px;
+    left: 30px;
+    border-radius: 8px;
+}
+
+.form_control {
+    width: 315px;
+    height: 67px;
+    top: 390px;
+    left: 30px;
+    border-radius: 8px;
+    background-color: #FAFAFA;
+    border: none;
+
+}
+
+.form_control::placeholder {
+    width: 71px;
+    height: 22px;
+    top: 414px;
+    left: 93px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ABABAB;
+}
+
+.form_label {
+    width: 310px;
+    height: 25px;
+    top: 355px;
+    left: 30px;
+    font-family: Nunito;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    margin-top: 100px;
+
+}
+
+.top_titulo {
+    width: 51px;
+    height: 66px;
+    top: 30px;
+    left: 48px;
+    font-family: Nunito;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #262626;
+    text-decoration: none;
+    margin-right: 260px;
+}
+
+.top_titulo_span {
+    margin-left: 28px;
+}
+
+.chevron_icon {
+    width: 24px;
+    height: 21px;
+    top: 18px;
+    left: 15px;
+    margin-bottom: 5px;
+    color: #262626;
+}
+
+@media only screen and (max-width: 300px) {
+    .button_task {
+        width: 100%;
+        height: 70px;
+    }
+
+    .form_control {
+        width: 100%;
+        height: 70px;
+    }
+
+    .form_label {
+        width: 100%;
+        height: auto;
+        top: auto;
+        left: auto;
+        margin-top: 130px;
+    }
+
+    .top_titulo {
+        width: 100%;
+        margin-right: 180px;
+        text-align: center;
+    }
+}

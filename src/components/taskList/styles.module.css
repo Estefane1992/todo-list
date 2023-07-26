@@ -1,0 +1,30 @@
+.container_task_list {
+  top: 396px;
+  left: 30px;
+  border-radius: 8px;
+}
+
+.task-item {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #292929;
+  
+}
+
+.task_list li{
+  background-color: #FAFAFA;
+  border: none;
+  padding: 30px;
+}
+
+.chevron_icon {
+  color: #000000;
+  font-size: 18px;
+  font-weight: bolder;
+  
+
+}

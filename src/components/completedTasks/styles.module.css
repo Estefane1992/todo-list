@@ -1,0 +1,48 @@
+.container_completed_tasks {
+    width: 300px;
+    height: 172px;
+   overflow: auto;
+    top: 198px;
+    left: 30px;
+    border-radius: 8px;
+    background: linear-gradient(136.04deg, #7F00FF -15.75%, #E100FF 122.51%);
+    box-shadow: 4px 12px 20px 4px #E100FF36;
+    margin-bottom: 20px;
+}
+
+.completed_tasks_list {
+    list-style: none;
+    margin-top: 10px;
+    padding: 20px 20px;
+}
+
+.span_icon_checkbox {
+    width: 24px;
+    height: 24px;
+    top: 224px;
+    left: 49px;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.task_name {
+    width: 73px;
+    height: 22px;
+    top: 214px;
+    left: 93px;
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 300px) {
+    .container_completed_tasks {
+        width: 270px;
+        
+
+    }
+}
